@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace ArenaGameNet
+namespace AGP
 {
     static class Program
     {
@@ -10,7 +10,7 @@ namespace ArenaGameNet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainTabForm());
+            Application.Run(new MainForm());
         }
     }
 }
